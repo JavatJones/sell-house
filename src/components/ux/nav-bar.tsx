@@ -13,7 +13,7 @@ const NavBar = async () => {
 
       <section>
         <article className='block'>
-          <nav className='container mx-auto flex flex-row justify-between items-center px-4 lg:px-16 py-2 lg:py-5 gap-5 '>
+          <nav className='container mx-auto flex flex-row justify-between items-center p-2 '>
             <Link href={"/"}>
               <Image
                 alt='IE Builders'
