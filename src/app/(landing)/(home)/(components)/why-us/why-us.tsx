@@ -59,8 +59,8 @@ const WhyUs = async () => {
 
 
                     {cards.map((item, index) => (
-                        <div key={index} className=' group flex flex-col gap-3 text-gray-600 even:text-gray-100 border-[1px] scale-100  xl:even:scale-105 even:border-[1.5px] border-white/10 even:border-emerald-400/40 even:bg-emerald-400 bg-white rounded-3xl even:drop-shadow-2xl even:drop-shadow-emerald-600'>
-                            <div className='block relative h-48 md:h-72 lg:h-72 xl:h-96'>
+                        <div key={index} className='group flex flex-col gap-3 text-gray-600 border-[1px] scale-100  pb-5 xl:even:scale-110 even:border-[1.8px] border-white/10 even:border-emerald-400/40   bg-white rounded-3xl even:drop-shadow-2xl even:drop-shadow-emerald-600/50'>
+                            <div className='block relative h-48 md:h-72 lg:h-72'>
                                 <Image
                                     src={item.image.src}
                                     layout='fill'
@@ -73,26 +73,26 @@ const WhyUs = async () => {
 
                             <div className='flex flex-col gap-5 py-5 lg:py-2 px-5 '>
 
-                                <h3 className='font-semibold  group-even:text-3xl text-2xl text-center '>
+                                <h3 className=' font-semibold text-2xl text-center  tracking-tight'>
                                     {item.title}
                                 </h3>
                                 <p className='text-base tracking-widest'>
                                     {item.fact1}
                                 </p>
-                                <p className='text-base tracking-widest '>
+                                <p className='text-base tracking-widest'>
                                     {item.fact2}
                                 </p>
-                                <p className=' text-base tracking-widest '>
+                                <p className=' text-base tracking-widest'>
                                     {item.fact3}
                                 </p>
                             </div>
 
                             <div className='flex group-even:hidden items-center justify-center py-2 px-4'>
-                                <ButtonScroll_v1 id={"quote-now"} text={`Im interested !`}></ButtonScroll_v1>
+                                <ButtonScroll_v2 id={"quote-now"} text={`Im interested !`}></ButtonScroll_v2>
                             </div>
 
                             <div className='hidden group-even:flex items-center justify-center py-2 px-4'>
-                                <ButtonScroll_v2 id={"quote-now"} text={`Get a free offer 💲`}></ButtonScroll_v2>
+                                <ButtonScroll_v1 id={"quote-now"} text={`Get a free offer 💲`}></ButtonScroll_v1>
                             </div>
                         </div>
 
