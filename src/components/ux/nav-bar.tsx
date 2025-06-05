@@ -1,8 +1,38 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
-const NavBar = () => {
+
+//images
+import Logo from "@/assets/logos/IE-Builders-Logo_Color-01.webp"
+import { Button } from '../ui/button'
+import { ButtonScroll_v1 } from '../tunnels/button-scroll'
+
+const NavBar = async () => {
   return (
-    <div>NavBar</div>
+    <header className='fixed top-0 z-50 w-full bg-[#F2F6F5]/50 backdrop-blur-[10px] drop-shadow-2xl'>
+
+      <section>
+        <article className='block'>
+          <nav className='container mx-auto flex flex-row justify-between items-center px-4 lg:px-16 py-2 lg:py-5 gap-5 '>
+            <Link href={"/"}>
+              <Image
+                alt='IE Builders'
+                src={Logo.src}
+                width={200}
+                height={200}
+              ></Image>
+            </Link>
+            <h2 className='text-[0px]'>iE Builders</h2>
+            <h2 className='text-[0px]'>Sell my house</h2>
+            <h2 className='text-[0px]'>I want sell my house</h2>
+
+            <ButtonScroll_v1 id={"quote-now"} text={"Quote now 🚀"}></ButtonScroll_v1>
+          </nav>
+        </article>
+      </section>
+
+    </header>
   )
 }
 
