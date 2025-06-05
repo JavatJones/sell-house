@@ -59,7 +59,7 @@ const WhyUs = async () => {
 
 
                     {cards.map((item, index) => (
-                        <div key={index} className='group flex flex-col gap-3 text-gray-600 border-[1px] scale-100  pb-5 xl:even:scale-110 even:border-[1.8px] border-white/10 even:border-emerald-400/40   bg-white rounded-3xl even:drop-shadow-2xl even:drop-shadow-emerald-600/50'>
+                        <div key={index} className='group flex flex-col gap-3  border-[1px] scale-100  pb-5 xl:even:scale-110 even:border-[1.8px] border-white/10 even:border-emerald-400/40   bg-white rounded-3xl even:drop-shadow-2xl even:drop-shadow-emerald-600/50'>
                             <div className='block relative h-48 md:h-72 lg:h-72'>
                                 <Image
                                     src={item.image.src}
@@ -73,16 +73,16 @@ const WhyUs = async () => {
 
                             <div className='flex flex-col gap-5 py-5 lg:py-2 px-5 '>
 
-                                <h3 className=' font-semibold text-2xl text-center  tracking-tight'>
+                                <h3 className=' font-semibold text-2xl text-center text-gray-900 tracking-tight'>
                                     {item.title}
                                 </h3>
-                                <p className='text-base tracking-widest'>
+                                <p className='text-base tracking-wide text-gray-600'>
                                     {item.fact1}
                                 </p>
-                                <p className='text-base tracking-widest'>
+                                <p className='text-base tracking-wide text-gray-600'>
                                     {item.fact2}
                                 </p>
-                                <p className=' text-base tracking-widest'>
+                                <p className=' text-base tracking-wide text-gray-600'>
                                     {item.fact3}
                                 </p>
                             </div>

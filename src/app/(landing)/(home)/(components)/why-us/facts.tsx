@@ -30,10 +30,10 @@ const FactsUs = () => {
                                     />
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="text-lg font-semibold text-gray-900 tracking-wider">
+                                    <h3 className="text-lg font-semibold text-gray-900 tracking-tight">
                                         Fast Cash Offers in 24 Hrs.
                                     </h3>
-                                    <p className="mt-1 text-gray-600 text-base tracking-tight">
+                                    <p className="mt-1 text-gray-600 text-base tracking-wide">
                                         We provide a no-obligation cash offer for your Houston home within 24 hours, guaranteeing a swift sale.
                                     </p>
                                 </div>
@@ -46,10 +46,10 @@ const FactsUs = () => {
                                     />
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="text-lg font-semibold text-gray-900 tracking-wider">
+                                    <h3 className="text-lg font-semibold text-gray-900 tracking-tight">
                                         Sell As-Is, No Repairs Needed.
                                     </h3>
-                                    <p className="mt-1 text-gray-600 text-base tracking-tight">
+                                    <p className="mt-1 text-gray-600 text-base tracking-wide">
                                         Save money and stress. We buy your house in its current condition – no fixes or cleaning required.
                                     </p>
                                 </div>
@@ -62,10 +62,10 @@ const FactsUs = () => {
                                     />
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="text-lg font-semibold text-gray-900 tracking-wider">
+                                    <h3 className="text-lg font-semibold text-gray-900 tracking-tight">
                                         Simple Process, Trusted Local Buyers.
                                     </h3>
-                                    <p className="mt-1 text-gray-600 text-base tracking-tight">
+                                    <p className="mt-1 text-gray-600 text-base tracking-wide">
                                         Enjoy a straightforward, transparent sale with local Houston experts who prioritize your convenience.
                                     </p>
                                 </div>
