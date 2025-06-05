@@ -17,7 +17,7 @@ const Social = () => {
 
                     <div className='flex flex-col  justify-center items-center'>
                         <h2 className='text-3xl md:text-4xl text-center font-medium max-w-2xl tracking-tight'> {/* Título mejorado y centrado */}
-                            IE Builders: <span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500  bg-clip-text text-transparent'>We Buy your house fast in Houston</span> – Your Quick Home Sale Solution!"
+                            IE Builders: <span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500  bg-clip-text text-transparent'>We Buy your house fast in Houston</span> – Your Quick Home Sale Solution!
                         </h2>
                     </div>
 

@@ -5,7 +5,6 @@ import React from 'react'
 
 //images
 import Logo from "@/assets/logos/IE-Builders-Logo_Color-01.webp"
-import { Button } from '../ui/button'
 import { ButtonScroll_v1 } from '../tunnels/button-scroll'
 
 const NavBar = async () => {
