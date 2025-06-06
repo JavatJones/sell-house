@@ -31,8 +31,6 @@ const LeadForm = () => {
     const form = useForm<z.infer<typeof SendInfoCustomerSchema>>({
         resolver: zodResolver(SendInfoCustomerSchema),
         defaultValues: {
-            name: '',
-            email: '',
             phone: '', // Ahora 'phone' es un string, coincidiendo con el tipo
             address: '',
         }
@@ -78,39 +76,7 @@ const LeadForm = () => {
                             return <FormItem className='col-span-2 lg:col-span-1'>
                                 <div className='flex flex-col '>
                                     <FormControl>
-                                        <Input className='placeholder:text-white text-white' placeholder='House address' type='text' {...field} disabled={isPending}></Input>
-                                    </FormControl>
-                                </div>
-                                <FormMessage></FormMessage>
-                            </FormItem>
-                        }}>
-                    </FormField>
-
-                    {/* Name */}
-                    <FormField
-                        control={form.control}
-                        name='name'
-                        render={({ field }) => {
-                            return <FormItem className='col-span-2 lg:col-span-1'>
-                                <div className='flex flex-col'>
-                                    <FormControl>
-                                        <Input className=' placeholder:text-white text-white' placeholder='Name' type='text' {...field} disabled={isPending}></Input>
-                                    </FormControl>
-                                </div>
-                                <FormMessage></FormMessage>
-                            </FormItem>
-                        }}>
-                    </FormField>
-
-                    {/* Email */}
-                    <FormField
-                        control={form.control}
-                        name='email'
-                        render={({ field }) => {
-                            return <FormItem className='col-span-2 lg:col-span-1'>
-                                <div className='flex flex-col'>
-                                    <FormControl>
-                                        <Input className='placeholder:text-white text-white' placeholder='Email' type='text' {...field} disabled={isPending}></Input>
+                                        <Input className='placeholder:text-black/40 text-black' placeholder='Property address' type='text' {...field} disabled={isPending}></Input>
                                     </FormControl>
                                 </div>
                                 <FormMessage></FormMessage>
@@ -126,20 +92,20 @@ const LeadForm = () => {
                             return <FormItem className='col-span-2 lg:col-span-1'>
                                 <div className='flex flex-col'>
                                     <FormControl>
-                                        <Input className='placeholder:text-white text-white' placeholder='Phone' type='number' {...field} disabled={isPending}></Input>
+                                        <Input className=' placeholder:text-black/40 text-black no-arrow' placeholder='Phone: (123)-456-7890' type='number' {...field} disabled={isPending}></Input>
                                     </FormControl>
                                 </div>
                                 <FormMessage></FormMessage>
                             </FormItem>
                         }}>
                     </FormField>
-                    <div className='flex w-full col-span-2'>
-                        <Button className='flex w-full px-8 py-2 bg-blue-600 hover:bg-blue-800 cursor-pointer drop-shadow-2xl' type='submit' disabled={isPending}>
+                    <div className='flex w-full col-span-2 '>
+                        <Button className='flex w-full py-3 px-4 cursor-pointer bg-emerald-400 hover:bg-emerald-500 text-white font-bold rounded-lg drop-shadow-2xl drop-shadow-emerald-400/30 transition duration-300 ease-in-out transform hover:scale-105' type='submit' disabled={isPending}>
 
                             {isPending ?
-                                <p className='block text-md tracking-wide'>Sending...</p>
+                                <p className='block text-md lg:text-lg font-bold tracking-wide text-white'>Sending...</p>
                                 :
-                                <p className='block text-md tracking-wide'>Send</p>
+                                <p className='block text-md lg:text-lg font-bold tracking-wide text-white'>Send</p>
                             }
                         </Button>
                     </div>
