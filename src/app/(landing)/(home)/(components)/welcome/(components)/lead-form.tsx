@@ -23,8 +23,8 @@ import { Button } from '@/components/ui/button';
 const LeadForm = () => {
 
     const router = useRouter();
-    const [error, setError] = useState<string | undefined>("");
-    const [success, setSuccess] = useState<string | undefined>("");
+    const [, setError] = useState<string | undefined>("");
+    const [, setSuccess] = useState<string | undefined>("");
     const [isPending, startTransition] = useTransition();
 
     //Validation
@@ -41,6 +41,7 @@ const LeadForm = () => {
 
     //On submit
     const onSubmit = (values: z.infer<typeof SendInfoCustomerSchema>) => {
+
         setError("");
         setSuccess("");
 
