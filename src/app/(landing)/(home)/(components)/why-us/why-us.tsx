@@ -21,7 +21,7 @@ const cards = [
         index: 1,
         image: anuncio,
         title: 'Sell my house in Houston',
-        fact1: '📌 Quick Home Sale Houston: Get a Cash Offer for Your Property Today!',
+        fact1: '📌 Quick Home Sale In Houston: Get a Cash Offer for Your Property Today!',
         fact2: '🏡 Need to Sell Your House Fast in Houston? We Buy in Houston, Spring, Tomball, Katy & More!',
         icon: <AiFillHome />,
     },
@@ -31,14 +31,14 @@ const cards = [
         title: 'Get a free cash offer',
         fact1: '🧾 Get a Free Cash Offer - We Buy Houses Houston Fast!',
         fact2: '💰 Experience a Fast Home Sale: Get Your No-Obligation Cash Offer Now!',
-        fact3: '🔒 Urgent Home Sale Houston? Get a Fair, Fast Cash Offer Today!',
+        fact3: '🔒 Urgent Home Sale In Houston? Get a Fair, Fast Cash Offer Today!',
         icon: <GiTakeMyMoney />
     },
     {
         index: 3,
         image: bad_house,
         title: 'Any condition, any situation',
-        fact1: '🛠️ Sell Your Property Fast Houston, No Repairs Needed – Even Distressed Homes!',
+        fact1: '🛠️ Sell Your Property In Fast Houston, No Repairs Needed – Even Distressed Homes!',
         fact2: '🚀 We Buy Homes Quickly in Houston: From Inherited to Distressed, Any Situation Welcome.',
         icon: <IoMdConstruct />
     },
@@ -76,13 +76,13 @@ const WhyUs = async () => {
                                 <h3 className=' font-semibold text-2xl text-center text-gray-900 tracking-tight'>
                                     {item.title}
                                 </h3>
-                                <p className='text-base tracking-wide text-gray-600'>
+                                <p className='text-base tracking-wide text-gray-600 capitalize'>
                                     {item.fact1}
                                 </p>
-                                <p className='text-base tracking-wide text-gray-600'>
+                                <p className='text-base tracking-wide text-gray-600 capitalize'>
                                     {item.fact2}
                                 </p>
-                                <p className=' text-base tracking-wide text-gray-600'>
+                                <p className=' text-base tracking-wide text-gray-600 capitalize'>
                                     {item.fact3}
                                 </p>
                             </div>
@@ -91,7 +91,7 @@ const WhyUs = async () => {
                                 <ButtonScroll_v2 id={"quote-now"} text={`Im interested !`}></ButtonScroll_v2>
                             </div>
 
-                            <div className='hidden group-even:flex items-center justify-center py-2 px-4'>
+                            <div className='hidden group-even:flex items-center justify-center py-2 px-4 '>
                                 <ButtonScroll_v1 id={"quote-now"} text={`Get a free offer 💲`}></ButtonScroll_v1>
                             </div>
                         </div>
