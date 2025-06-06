@@ -74,7 +74,7 @@ const FactsUs = () => {
                         </article>
 
                         <div className='flex w-full items-center justify-center'>
-                            <ButtonScroll_v1 id={"1"} text={'Quote now 🚀'}></ButtonScroll_v1>
+                            <ButtonScroll_v1 id={"quote-now"} text={'Quote now 🚀'}></ButtonScroll_v1>
                         </div>
                     </div>
 

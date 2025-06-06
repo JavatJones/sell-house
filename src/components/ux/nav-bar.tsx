@@ -9,7 +9,7 @@ import { ButtonScroll_v1 } from '../tunnels/button-scroll'
 
 const NavBar = async () => {
   return (
-    <header className='fixed top-0 z-50 w-full bg-[#F2F6F5]/50 backdrop-blur-[10px] drop-shadow-2xl'>
+    <header className='fixed top-0 z-50 w-full bg-[#F2F6F5] backdrop-blur-[10px] drop-shadow-2xl'>
 
       <section>
         <article className='block'>

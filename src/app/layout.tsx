@@ -5,6 +5,8 @@ import NavBar from "@/components/ux/nav-bar";
 import Footer from "@/components/ux/footer";
 const montserrat = Montserrat({ subsets: ['latin'] })
 import 'leaflet/dist/leaflet.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata: Metadata = {
   title: "- IE Builders",
@@ -24,6 +26,7 @@ export default function RootLayout({
 
         <NavBar></NavBar>
         <main className="bg-[#F2F6F5] min-h-screen">
+          <ToastContainer theme="colored" position="bottom-right" />
           {children}
         </main>
         <Footer></Footer>
