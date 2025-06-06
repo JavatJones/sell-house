@@ -37,11 +37,12 @@ const UserHouseInfo = async (values: z.infer<typeof SendInfoCustomerSchema>) => 
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const result = await response.json();
-        return { success: '¡We will contact you soon!!' };
+        await response.json();
+        return { success: 'Thank you, we will contact you soon!' };
 
     } catch (error) {
-        return { success: 'Something went wrong!' };
+        console.error('No se pudo enviar los datos a Zapier:', error);
+        return { success: 'No se pudieron enviar los datos.' };
     }
     // return { success: `Form dev: ${address}, ${phone}, success` }
 
