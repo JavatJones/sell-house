@@ -1,6 +1,8 @@
 import React from 'react'
+
+
+//components
 import WhyUs from './(components)/why-us/why-us'
-import Social from './(components)/social/social'
 import FactsUs from './(components)/why-us/facts'
 import Welcome from './(components)/welcome/welcome'
 
@@ -17,7 +19,6 @@ const HomePage = async () => {
       <Welcome></Welcome>
       <WhyUs></WhyUs>
       <FactsUs></FactsUs>
-      <Social></Social>
 
     </div>
   )
