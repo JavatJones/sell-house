@@ -1,8 +1,6 @@
 import React from 'react'
-import Fondo from '@/assets/images/fondo.webp'
-import Image from 'next/image'
 
-import arrow from '@/assets/images/arrow_green.png'
+// import arrow from '@/assets/images/arrow_green.png'
 import LeadForm from './(components)/lead-form'
 
 const Welcome = () => {
@@ -23,7 +21,7 @@ const Welcome = () => {
 
           
          <div className='w-full lg:max-w-xl space-y-8 drop-shadow-2xl p-10 rounded-2xl bg-blue-950 backdrop-blur-3xl border-[1px] border-emerald-400'>
-            <h2 className='text-2xl font-bold text-white text-center'>Contact iE Builders !</h2>
+            <h2 className='text-2xl font-bold text-white text-center tracking-tight'>Get a cash offer by iE Builders !</h2>
             <LeadForm></LeadForm>
           </div>
 

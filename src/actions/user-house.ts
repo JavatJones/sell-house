@@ -21,34 +21,34 @@ const UserHouseInfo = async (values: z.infer<typeof SendInfoCustomerSchema>) => 
     }
 
 
-    try {
-        const response = await fetch(zapierWebhookUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                name,
-                email,
-                address,
-                phone,
-                lead_from: "WEBSITE_LEADS"
-            }),
-        });
+    // try {
+    //     const response = await fetch(zapierWebhookUrl, {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: JSON.stringify({
+    //             name,
+    //             email,
+    //             address,
+    //             phone,
+    //             lead_from: "WEBSITE_LEADS"
+    //         }),
+    //     });
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
+    //     if (!response.ok) {
+    //         throw new Error(`HTTP error! status: ${response.status}`);
+    //     }
 
-        const result = await response.json();
-        console.log('Datos enviados a Zapier:', result);
+    //     const result = await response.json();
+    //     console.log('Datos enviados a Zapier:', result);
 
-        return { success: '¡Datos enviados correctamente!' };
+    //     return { success: '¡Datos enviados correctamente!' };
 
-    } catch (error) {
-        console.error('No se pudo enviar los datos a Zapier:', error);
-        return { success: 'No se pudieron enviar los datos.' };
-    }
+    // } catch (error) {
+    //     console.error('No se pudo enviar los datos a Zapier:', error);
+    //     return { success: 'No se pudieron enviar los datos.' };
+    // }
     return { success: `Saved info: ${name}, ${email}, ${address}, ${phone}` }
 
 }

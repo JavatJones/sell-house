@@ -15,9 +15,9 @@ import { SendInfoCustomerSchema } from "@/schemas/index"
 import { useTransition } from 'react'
 import { useForm } from "react-hook-form";
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form'
 import { useRouter } from 'next/navigation'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { Button } from '@/components/ui/button';
 
 const LeadForm = () => {
