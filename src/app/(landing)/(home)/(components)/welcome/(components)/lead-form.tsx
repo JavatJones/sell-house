@@ -28,8 +28,6 @@ const LeadForm = () => {
     const [, setError] = useState<string | undefined>("");
     const [, setSuccess] = useState<string | undefined>("");
     const [isPending, startTransition] = useTransition();
-    const [isInternational, setIsInternational] = React.useState(false);
-
     //Validation
     const form = useForm<z.infer<typeof SendInfoCustomerSchema>>({
         resolver: zodResolver(SendInfoCustomerSchema),
