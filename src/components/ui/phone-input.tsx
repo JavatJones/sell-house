@@ -1,24 +1,16 @@
 import * as React from "react";
-import { CheckIcon, ChevronsUpDown } from "lucide-react";
+// import { CheckIcon } from "lucide-react";
 import * as RPNInput from "react-phone-number-input";
 import flags from "react-phone-number-input/flags";
 
 import { Button } from "@/components/ui/button";
-import {
-    Command,
-    CommandEmpty,
-    CommandGroup,
-    CommandInput,
-    CommandItem,
-    CommandList,
-} from "@/components/ui/command";
+// import {
+
+//     CommandItem,
+
+// } from "@/components/ui/command";
 import { Input } from "@/components/ui/input";
-import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
-} from "@/components/ui/popover";
-import { ScrollArea } from "@/components/ui/scroll-area";
+
 import { cn } from "@/lib/utils";
 
 type PhoneInputProps = Omit<
@@ -80,14 +72,14 @@ type CountrySelectProps = {
 };
 
 const CountrySelect = ({
-    disabled,
+    // disabled,
     value: selectedCountry,
-    options: countryList,
-    onChange,
+    // options: countryList,
+    // onChange,
 }: CountrySelectProps) => {
-    const scrollAreaRef = React.useRef<HTMLDivElement>(null);
-    const [searchValue, setSearchValue] = React.useState("");
-    const [isOpen, setIsOpen] = React.useState(false);
+    // const scrollAreaRef = React.useRef<HTMLDivElement>(null);
+    // const [searchValue, setSearchValue] = React.useState("");
+    // const [isOpen, setIsOpen] = React.useState(false);
 
     return (
         /* The commented out code block you provided is a section of JSX code that seems to be a button
@@ -97,7 +89,7 @@ const CountrySelect = ({
             type="button"
             variant="outline"
             className="flex gap-1 rounded-e-none rounded-s-lg border-r-0 px-3 focus:z-10"
-            disabled={isOpen}
+            // disabled={isOpen}
         >
             <FlagComponent
                 country={selectedCountry}
@@ -181,29 +173,29 @@ interface CountrySelectOptionProps extends RPNInput.FlagProps {
     onSelectComplete: () => void;
 }
 
-const CountrySelectOption = ({
-    country,
-    countryName,
-    selectedCountry,
-    onChange,
-    onSelectComplete,
-}: CountrySelectOptionProps) => {
-    const handleSelect = () => {
-        onChange(country);
-        onSelectComplete();
-    };
+// const CountrySelectOption = ({
+//     country,
+//     countryName,
+//     selectedCountry,
+//     onChange,
+//     onSelectComplete,
+// }: CountrySelectOptionProps) => {
+//     const handleSelect = () => {
+//         onChange(country);
+//         onSelectComplete();
+//     };
 
-    return (
-        <CommandItem className="gap-2" onSelect={handleSelect}>
-            <FlagComponent country={country} countryName={countryName} />
-            <span className="flex-1 text-sm">{countryName}</span>
-            <span className="text-sm text-foreground/50">{`+${RPNInput.getCountryCallingCode(country)}`}</span>
-            <CheckIcon
-                className={`ml-auto size-4 ${country === selectedCountry ? "opacity-100" : "opacity-0"}`}
-            />
-        </CommandItem>
-    );
-};
+//     return (
+//         <CommandItem className="gap-2" onSelect={handleSelect}>
+//             <FlagComponent country={country} countryName={countryName} />
+//             <span className="flex-1 text-sm">{countryName}</span>
+//             <span className="text-sm text-foreground/50">{`+${RPNInput.getCountryCallingCode(country)}`}</span>
+//             <CheckIcon
+//                 className={`ml-auto size-4 ${country === selectedCountry ? "opacity-100" : "opacity-0"}`}
+//             />
+//         </CommandItem>
+//     );
+// };
 
 const FlagComponent = ({ country, countryName }: RPNInput.FlagProps) => {
     const Flag = flags[country];
