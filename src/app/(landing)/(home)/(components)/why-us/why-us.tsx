@@ -1,12 +1,5 @@
 import React from 'react'
 
-
-//icons
-import { AiFillHome } from "react-icons/ai";
-import { GiTakeMyMoney } from "react-icons/gi";
-import { IoMdConstruct } from "react-icons/io";
-import { IoIosDesktop } from "react-icons/io";
-
 //images
 import bad_house from "@/assets/images/bad_house.webp";
 import work from "@/assets/images/sale_3.webp";
