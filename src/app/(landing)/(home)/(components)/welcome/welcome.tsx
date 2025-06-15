@@ -10,11 +10,11 @@ const Welcome = () => {
       </div> */}
       <article className='container mx-auto flex flex-col lg:flex-row w-full h-full gap-10 '>
         <div className='flex flex-col w-full lg:w-6/12 space-y-8 drop-shadow-2xl justify-center items-center'>
-          <h1 className='text-3xl md:text-4xl lg:text-5xl text-center font-medium max-w-3xl tracking-tight'>
-            Sell Your House Fast in Houston, <span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500 bg-clip-text text-transparent'>Get a Fair Cash Offer</span> Today!
+          <h1 className='text-3xl md:text-4xl lg:text-5xl text-center font-medium tracking-tight'>
+            Sell your house and<span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500 bg-clip-text text-transparent'> get a fair cash offer</span> today!
           </h1>
-          <p className='text-gray-600 text-justify text-lg tracking-wide max-w-sm'>
-            Need to sell your Houston home quickly? Fast cash for properties in any condition, get your cash offer today!
+          <p className='text-gray-600 text-justify text-lg tracking-wide max-w-md'>
+            Need to sell your Houston home quickly? We offer fast cash for properties in any condition. Get your transparent cash offer today!
           </p>
         </div>
         <div className='relative flex flex-col w-full lg:w-6/12 items-center justify-center'>

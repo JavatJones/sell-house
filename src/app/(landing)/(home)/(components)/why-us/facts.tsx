@@ -11,7 +11,7 @@ const FactsUs = () => {
             <article className='flex flex-col gap-10'>
                 <div className='flex flex-col justify-center items-center'>
                     <h2 className='text-3xl md:text-4xl text-center font-medium max-w-2xl tracking-tight'>
-                        <span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500 bg-clip-text text-transparent'>Sell your house fast</span> in Houston with IE Builder – Your solution for a <span className='bg-gradient-to-r from-blue-600 to-emerald-600 via-emerald-500 bg-clip-text text-transparent'>Fast Cash Offer</span>, As-Is!
+                        How IE Builders works
                     </h2>
                 </div>
 
@@ -34,7 +34,7 @@ const FactsUs = () => {
                                         Fast Cash Offers in 24 Hrs.
                                     </h3>
                                     <p className="mt-1 text-gray-600 text-base tracking-wide">
-                                        We provide a no-obligation cash offer for your Houston home within 24 hours, guaranteeing a swift sale.
+                                        We provide a no-obligation cash offer for your property within 24 hours, guaranteeing a swift sale.
                                     </p>
                                 </div>
                             </article>
@@ -66,7 +66,7 @@ const FactsUs = () => {
                                         Simple Process, Trusted Local Buyers.
                                     </h3>
                                     <p className="mt-1 text-gray-600 text-base tracking-wide">
-                                        Enjoy a straightforward, transparent sale with local Houston experts who prioritize your convenience.
+                                        Enjoy a straightforward, transparent sale with local experts who prioritize your convenience.
                                     </p>
                                 </div>
                             </article>
