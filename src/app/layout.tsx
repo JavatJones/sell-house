@@ -51,7 +51,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer></Footer>
-
+        <Analytics />
       </body>
     </html>
   );
