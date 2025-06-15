@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 import "@/styles/globals.css";
 import { Montserrat } from 'next/font/google'
 import NavBar from "@/components/ux/nav-bar";
