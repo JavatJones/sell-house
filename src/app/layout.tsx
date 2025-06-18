@@ -8,6 +8,8 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 import 'leaflet/dist/leaflet.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { GoogleTagManager } from '@next/third-parties/google';
+
 
 export const metadata: Metadata = {
   title: "Sell My House Fast Houston - IE Builders",
@@ -39,12 +41,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID!; // Tu ID de Google Ads
+
   return (
     <html lang="en">
       <body
         className={`${montserrat.className} antialiased`}
       >
 
+        <GoogleTagManager gtmId={googleAdsId} />
         <NavBar></NavBar>
         <main className="bg-[#F2F6F5] min-h-screen pb-24">
           <ToastContainer theme="colored" position="bottom-right" />
