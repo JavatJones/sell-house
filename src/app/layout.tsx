@@ -42,15 +42,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID!; // Tu ID de Google Ads
 
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="AW-11302152867" />
       <body
         className={`${montserrat.className} antialiased`}
       >
 
-        <GoogleTagManager gtmId={googleAdsId} />
+
         <NavBar></NavBar>
         <main className="bg-[#F2F6F5] min-h-screen pb-24">
           <ToastContainer theme="colored" position="bottom-right" />
