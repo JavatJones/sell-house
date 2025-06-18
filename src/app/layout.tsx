@@ -45,7 +45,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="AW-11302152867" />
+     
       <body
         className={`${montserrat.className} antialiased`}
       >
@@ -59,6 +59,7 @@ export default function RootLayout({
         <Footer></Footer>
         <Analytics />
       </body>
+       <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID || ""} />
     </html>
   );
 }
