@@ -59,7 +59,7 @@ export default function RootLayout({
         <Footer></Footer>
         <Analytics />
       </body>
-       <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID || ""} />
+       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ""} />
     </html>
   );
 }
