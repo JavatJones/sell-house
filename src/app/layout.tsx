@@ -45,12 +45,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-     
       <body
         className={`${montserrat.className} antialiased`}
       >
-
-
         <NavBar></NavBar>
         <main className="bg-[#F2F6F5] min-h-screen pb-24">
           <ToastContainer theme="colored" position="bottom-right" />
@@ -59,7 +56,7 @@ export default function RootLayout({
         <Footer></Footer>
         <Analytics />
       </body>
-       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ""} />
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ""} />
     </html>
   );
 }

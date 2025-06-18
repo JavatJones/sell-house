@@ -1,24 +1,37 @@
 "use client"
 // components/ScrollToQuoteButton.js
 import React from 'react';
-
+import { sendGTMEvent } from '@next/third-parties/google'
+ 
 interface ScrollQuoteProps {
     id: string;
     text: string;
 
 }
 
+// Asumiendo que ScrollQuoteProps está definido en alguna parte, por ejemplo:
+interface ScrollQuoteProps {
+    id: string;
+    text: string;
+}
+
+
 export const ButtonScroll_v1 = ({ id, text }: ScrollQuoteProps) => {
-
     const scrollToQuote = () => {
-
         const section = document.getElementById(id);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+
+            // *** Agregar el evento GTM aquí ***
+            sendGTMEvent({
+                event: 'button_click', // Nombre del evento, puedes personalizarlo
+                button_id: id,        // ID de la sección a la que se desplaza
+                button_text: text,    // Texto del botón
+                button_type: 'scroll_v1', // Tipo de botón para diferenciar
+                location: window.location.pathname // Ruta de la página actual
+            });
         }
     };
-
-
 
     return (
         <button
@@ -27,20 +40,25 @@ export const ButtonScroll_v1 = ({ id, text }: ScrollQuoteProps) => {
         >
             <span className='block text-xs lg:text-lg tracking-wide'>{text}</span>
         </button>
-    )
+    );
 };
 
 export const ButtonScroll_v2 = ({ id, text }: ScrollQuoteProps) => {
-
     const scrollToQuote = () => {
-
         const section = document.getElementById(id);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+
+            // *** Agregar el evento GTM aquí ***
+            sendGTMEvent({
+                event: 'button_click', // Nombre del evento
+                button_id: id,
+                button_text: text,
+                button_type: 'scroll_v2', // Tipo de botón para diferenciar
+                location: window.location.pathname
+            });
         }
     };
-
-
 
     return (
         <button
@@ -49,7 +67,6 @@ export const ButtonScroll_v2 = ({ id, text }: ScrollQuoteProps) => {
         >
             <span className='block text-xs lg:text-lg tracking-wide'>{text}</span>
         </button>
-    )
+    );
 };
-
 
