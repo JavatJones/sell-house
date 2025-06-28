@@ -8,7 +8,7 @@ const PrivacyPage = () => {
                     Privacy policy
                 </h1>
 
-                <div className='flex flex-col gap-5 max-w-7xl mx-auto '>
+                <div className='flex flex-col gap-5  mx-auto '>
                     <span>
                         Last update: June 27, 2025
                     </span>
@@ -30,7 +30,7 @@ const PrivacyPage = () => {
                 </div>
             </article>
 
-            <div className='flex flex-col gap-24 mx-auto max-w-7xl'>
+            <div className='flex flex-col gap-24 mx-auto max-w-4xl antialiased '>
                 {/* section 1*/}
                 <article className='flex flex-col gap-10'>
                     <h2 className='text-black/80 font-bold text-left text-3xl tracking-wide'>

@@ -8,6 +8,8 @@ import Logo from "@/assets/logos/IE-Builders-Logo_Color-01.webp"
 import { ButtonScroll_v1 } from '../tunnels/button-scroll'
 
 const NavBar = async () => {
+
+  
   return (
     <header className='fixed top-0 z-50 w-full bg-[#F2F6F5] backdrop-blur-[10px] drop-shadow-xs'>
 
@@ -26,7 +28,7 @@ const NavBar = async () => {
             <h2 className='text-[0px]'>Sell my house</h2>
             <h2 className='text-[0px]'>I want sell my house</h2>
 
-            <ButtonScroll_v1 id={"quote-now"} text={"Quote now 🚀"}></ButtonScroll_v1>
+            <ButtonScroll_v1 id={"quote-now"} text={`Quote now 🚀`}></ButtonScroll_v1>
           </nav>
         </article>
       </section>
