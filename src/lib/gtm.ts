@@ -14,9 +14,9 @@ interface GTMEvent {
 
 export const sendGTMEvent = (eventData: GTMEvent) => {
 
-  if (typeof window !== 'undefined' && (window as any).dataLayer) {
+  if (typeof window !== 'undefined' && window.dataLayer) {
 
-    (window as any).dataLayer.push(eventData);
+    window.dataLayer.push(eventData);
 
     console.log('GTM Event pushed:', eventData); // Opcional: para depuración
 
