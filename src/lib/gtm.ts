@@ -6,7 +6,7 @@ interface GTMEvent {
 
   event: string;
 
-  [key: string]: any; // Permite propiedades adicionales
+  [key: string]: string; // Permite propiedades adicionales
 
 }
 
