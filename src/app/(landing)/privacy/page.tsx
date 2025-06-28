@@ -17,7 +17,7 @@ const PrivacyPage = () => {
                     </p>
 
                     <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                        This Privacy Notice outlines the data processing practices of IE Builders, LLC ("The Company," "we," "us," or "our"). It details how we collect, use, protect, and handle user information provided through our website iebuilders.com and the "David Houston" Facebook page. This policy is designed to comply with applicable data privacy laws in the United States, including the Texas Data Privacy and Security Act (TDPSA).
+                        This Privacy Notice outlines the data processing practices of IE Builders, LLC (&quot;The Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). It details how we collect, use, protect, and handle user information provided through our website iebuilders.com and the &quot;David Houston&quot; Facebook page. This policy is designed to comply with applicable data privacy laws in the United States, including the Texas Data Privacy and Security Act (TDPSA).
                     </p>
 
                     <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
@@ -39,7 +39,7 @@ const PrivacyPage = () => {
 
                     <div className='flex flex-col gap-5'>
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            The entity responsible for the processing of your personal data (the "Controller") is IE Builders, LLC, a limited liability company organized and operating under the laws of the State of Texas. Our foremost commitment is to safeguard the integrity, privacy, and confidentiality of the information you entrust to us. For any matter related to this Privacy Notice or the processing of your personal data, you may contact us using the information provided herein.
+                            The entity responsible for the processing of your personal data (the &quot;Controller&quot;) is IE Builders, LLC, a limited liability company organized and operating under the laws of the State of Texas. Our foremost commitment is to safeguard the integrity, privacy, and confidentiality of the information you entrust to us. For any matter related to this Privacy Notice or the processing of your personal data, you may contact us using the information provided herein.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
@@ -61,7 +61,7 @@ const PrivacyPage = () => {
 
                     <div className='flex flex-col gap-5'>
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            The personal data we collect through contact forms, registration fields, and direct chat functionalities on iebuilders.com and the "David Houston" Facebook page is utilized for primary purposes that are essential to the business relationship you initiate with us. These purposes strictly include: identifying and contacting you; providing detailed information and estimates for our construction and project development services; and processing your service requests to facilitate pre-contractual and contractual obligations.
+                            The personal data we collect through contact forms, registration fields, and direct chat functionalities on iebuilders.com and the &quot;David Houston&quot; Facebook page is utilized for primary purposes that are essential to the business relationship you initiate with us. These purposes strictly include: identifying and contacting you; providing detailed information and estimates for our construction and project development services; and processing your service requests to facilitate pre-contractual and contractual obligations.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
@@ -87,7 +87,7 @@ const PrivacyPage = () => {
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            We do not intentionally collect or process "sensitive personal information" as defined by the TDPSA, such as data revealing racial or ethnic origin, religious beliefs, health diagnoses, or genetic data. Our data collection is strictly confined to the information that is adequate, relevant, and reasonably necessary to initiate and maintain a business relationship with you as a prospective client.
+                            We do not intentionally collect or process &quot;sensitive personal information&quot; as defined by the TDPSA, such as data revealing racial or ethnic origin, religious beliefs, health diagnoses, or genetic data. Our data collection is strictly confined to the information that is adequate, relevant, and reasonably necessary to initiate and maintain a business relationship with you as a prospective client.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
@@ -127,7 +127,7 @@ const PrivacyPage = () => {
 
                     <div className='flex flex-col gap-5'>
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            The Company is committed to not sharing, selling, or transferring your personal information to third parties for their own independent use without your consent, except as permitted or required by law. The term "sell" is used here as it is defined in the TDPSA. We do not "sell" your personal data, and we will not do so in the future without providing you with notice and an opportunity to opt out.
+                            The Company is committed to not sharing, selling, or transferring your personal information to third parties for their own independent use without your consent, except as permitted or required by law. The term &quot;sell&quot; is used here as it is defined in the TDPSA. We do not &quot;sell&quot; your personal data, and we will not do so in the future without providing you with notice and an opportunity to opt out.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
@@ -179,7 +179,7 @@ const PrivacyPage = () => {
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            You have control over the use of these technologies. Most modern web browsers allow you to manage your cookie preferences through their settings. You can configure your browser to reject cookies or to alert you when cookies are being sent. Please consult the "Help" or "Settings" menu of your browser for detailed instructions, but note that disabling cookies may affect the functionality of certain parts of our website.
+                            You have control over the use of these technologies. Most modern web browsers allow you to manage your cookie preferences through their settings. You can configure your browser to reject cookies or to alert you when cookies are being sent. Please consult the &quot;Help&quot; or &quot;Settings&quot; menu of your browser for detailed instructions, but note that disabling cookies may affect the functionality of certain parts of our website.
                         </p>
                     </div>
 
@@ -216,15 +216,15 @@ const PrivacyPage = () => {
 
                     <div className='flex flex-col gap-5'>
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            In addition to the rights listed above, you have the absolute right to direct us to stop certain uses of your information. This includes the right to opt-out of the processing of your personal data for the purposes of targeted advertising. You also have the right to opt-out of any "sale" of your personal data, as that term is defined under the TDPSA.
+                            In addition to the rights listed above, you have the absolute right to direct us to stop certain uses of your information. This includes the right to opt-out of the processing of your personal data for the purposes of targeted advertising. You also have the right to opt-out of any &quot;sale&quot; of your personal data, as that term is defined under the TDPSA.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            If you have previously consented to receive secondary communications from us, such as marketing emails or newsletters, you may revoke that consent at any time. Every marketing email we send includes a clear and conspicuous "unsubscribe" link that allows you to opt out of future messages. Processing your unsubscribe request will be done promptly and at no cost to you.
+                            If you have previously consented to receive secondary communications from us, such as marketing emails or newsletters, you may revoke that consent at any time. Every marketing email we send includes a clear and conspicuous &quot;unsubscribe&quot; link that allows you to opt out of future messages. Processing your unsubscribe request will be done promptly and at no cost to you.
                         </p>
 
                         <p className='text-black/80 font-medium text-lg antialiased tracking-tight text-justify'>
-                            To exercise your right to opt-out of targeted advertising or to make any other request to limit the use and disclosure of your data, please contact us at davidiebuilders@gmail.com. While we do not currently "sell" personal data, we will honor your choices regarding how your information is used for promotional purposes. Please note that revoking consent for primary data processing may impact our ability to provide you with our services.
+                            To exercise your right to opt-out of targeted advertising or to make any other request to limit the use and disclosure of your data, please contact us at davidiebuilders@gmail.com. While we do not currently &quot;sell&quot; personal data, we will honor your choices regarding how your information is used for promotional purposes. Please note that revoking consent for primary data processing may impact our ability to provide you with our services.
                         </p>
                     </div>
 
